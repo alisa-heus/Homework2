@@ -26,9 +26,9 @@ namespace Task1Library
             return (divided, remainder);
         }
 
-        public static float Task4(float inputa, float inputb, float inputc)
+        public static float Task4(float inputA, float inputB, float inputC)
         {
-            float numberX = (inputc - inputb) / inputa;
+            float numberX = (inputC - inputB) / inputA;
             
             return numberX;
         }
