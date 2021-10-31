@@ -7,6 +7,7 @@ namespace Task1Library
        public static double Task1(int inputA, int inputB)
         {
             var result = (inputA * 5 + Math.Pow(inputB, 2)) / (inputB - inputA);
+           
             return result;
         }
 
@@ -21,12 +22,14 @@ namespace Task1Library
         {
             int divided = numberA / numberB;
             int remainder = numberA % numberB;
+            
             return (divided, remainder);
         }
 
         public static float Task4(float inputa, float inputb, float inputc)
         {
             float numberX = (inputc - inputb) / inputa;
+            
             return numberX;
         }
 
@@ -34,6 +37,7 @@ namespace Task1Library
         {
             float a = (numberY2 - numberY1) / (numberX2 - numberX1);
             float b = numberY1 - a * numberX1;
+            
             return (a, b);
         }
     }
